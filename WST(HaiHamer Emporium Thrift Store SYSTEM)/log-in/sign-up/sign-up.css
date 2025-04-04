@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+.container {
+  display: flex;
+  width: 95%;
+  height: 95%;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.left {
+  flex: 1;
+  padding: 20px;
+  background: #ddd;
+}
+.left h1 {
+  font-size: 24px;
+  text-align: center;
+}
+.left p {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.text-logo{
+  margin-top: 0px;
+  width: 240px;
+}
+.logo {
+  width: 50%;
+  margin: 10px 0px;
+  margin-left: 25%;
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+.contact-info p {
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.right {
+  flex: 1;
+  background: #fff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-group label strong {
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.create-account-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.create-account-btn:hover {
+  background-color: #555;
+}
